@@ -215,7 +215,7 @@ Update.prototype.update = function() {
 };
 
 var City = function(data) {
-  this.currency = data.currency || 100;
+  this.currency = data.currency || 9999999999999999999;
   this.day = data.day || 0;
   this.name = data.name || 'The City';
   this.population = data.population || 0;
