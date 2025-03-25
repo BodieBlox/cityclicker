@@ -2,9 +2,9 @@
 var teams = ['Hoboken Zephyrs', 'Shelbyville Sharks', 'Santa Destroy Warriors', 'New New York Yankees', 'North Shore High Lions'];
 var sports = ['Airball', 'Blernsball', 'Brockian Ultra-Cricket', 'Chess', 'Dungeons & Dungeons', 'Laserball', 'Quidditch'];
 
-var residentMultiplier = 1.05;
-var commerceMultiplier = 1.1;
-var industryMultiplier = 1.1;
+var residentMultiplier = 4;
+var commerceMultiplier = 4;
+var industryMultiplier = 4;
 
 var format = function(amount, symbol) {
   if (amount > 9) {
